@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>定位</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="dingwei.css">
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript" src="dingwei.js">
+window.navigator.geolocation.getCurrentPosition(function (position) {
+    window.alert("您的经度为："+position.coords.latitude)
+    window.alert("您的纬度为："+position.coords.longitude)
+})</script>
+</html>
